@@ -1,0 +1,56 @@
+button
+{
+   width:60px;
+   height:60px;
+   background-color:orange;
+   font-weight:bold;
+   font-size:26px;
+   border-radius:30px;
+   cursor:pointer;
+}
+button:hover
+{
+    background-color:hsl(39, 100%, 60%);
+}
+button:active
+{
+    background-color:hsl(39, 100%, 70%);
+}
+.allbuttons
+{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+    margin:15px;
+    
+}
+#display
+{   width:97.5%;
+    height:75px;
+    font-weight:bold;
+    font-size:2em;
+    background-color: rgba(245, 245, 245, 0.918);
+    overflow:hidden;
+}
+.outer-box
+{
+    max-width:300px;
+    background-color:rgb(73, 59, 59);
+    border-radius:15px;
+    overflow:hidden;
+    border-style:solid;
+    border-width:3px;
+}
+body
+{
+    background-color:rgba(0, 0, 0, 0.493);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+}
+h3
+{
+    color:white;
+    margin-left:30px;
+}
